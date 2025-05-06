@@ -6,6 +6,7 @@
         <Nullable>enable</Nullable>
         <Authors>John Bush</Authors>
         <Description>Clientspace API connector</Description>
+        <RepositoryUrl>https://github.com/jbtilson/ClientSpace</RepositoryUrl>
         <VersionPrefix>0.0.1</VersionPrefix>        
     </PropertyGroup>
 
