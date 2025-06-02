@@ -1,12 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <IsPackable>false</IsPackable>
-        <UserSecretsId>14da9670-3e9a-4924-9835-a75cfa415419</UserSecretsId>
-    </PropertyGroup>
+      <UserSecretsId>851c384c-5096-4369-af79-8535ad84d963</UserSecretsId>
+  </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="coverlet.collector" Version="6.0.4" />
@@ -17,7 +17,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="../source/ClientSpace.csproj" />
+      <ProjectReference Include="../source/BambooHR.csproj" />
     </ItemGroup>
 
     <ItemGroup>
@@ -25,15 +25,6 @@
     </ItemGroup>
     <ItemGroup>
         <None Update="appsettings.json">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Update="testfiles/testing.docx">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Update="testfiles/testing.pdf">
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-        </None>
-        <None Update="testfiles/testing.txt">
             <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </None>
     </ItemGroup>
