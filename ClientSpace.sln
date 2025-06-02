@@ -2,9 +2,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooHR", "source\ClientSpaBambooHRce.csproj", "{837263EE-2493-5F8E-1517-4139911BF305}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSpace", "source\ClientSpace.csproj", "{837263EE-2493-5F8E-1517-4139911BF305}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BambooHR.Tests", "tests\BambooHR.Tests.csproj", "{F86AEC10-DAF9-6640-B96D-95810B013EEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clientspace.Tests", "tests\Clientspace.Tests.csproj", "{F86AEC10-DAF9-6640-B96D-95810B013EEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
